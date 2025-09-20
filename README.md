@@ -37,7 +37,7 @@ Worksページの作品情報入力：約4時間
 * PHP
 * CSS(Tailwind.css使用)
 * JavaScript
-* Json(Worksページの作品情報に使用)
+* json(Worksページの作品情報に使用)
 
 
 # 使用ソフト
