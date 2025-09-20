@@ -1,4 +1,4 @@
-# akira-s_portfolio
+# Craftfolio
 
 三角晶のポートフォリオサイトです。
 
