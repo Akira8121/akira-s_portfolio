@@ -1,66 +1,55 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Trajectory
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+三角晶のポートフォリオサイトです。
 
-## About Laravel
+![logo](https://github.com/Akira8121/akira-s_portfolio/public/images/logo.svg)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+今まで制作したデザインやWEBサイトを掲載しています。
+レスポンシブ対応していますので、スマホやタブレットからもご確認可能です。
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+サイトURLはこちら
+[https://akira8121.github.io/trajectory/](https://xs484219.xsrv.jp/)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+# デザイン
+* 白と寒色系をベースに統一感を持たせ、シンプルなデザインで制作
+* 閲覧しているページを分かりやすくするために、閲覧ページに色付けをしている
+* ブロックやボタンなどを角丸にし、やわらかい雰囲気に
+* 習得スキルをブロックごとに表示し、アイコンと名前で分かりやすく
+* Worksページの作品をタグ付けし、タグごとにどの作品か絞り込めるように機能を実装
+* Contactページのお問い合わせの件名を選択式にして、お問い合わせを行う人も受け取る人も分かりやすく
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+# 課題
+* シンプル過ぎてしまいデザイン的にまだ編集できるため、もっと閲覧者が見やすいデザインへの修正を考えています
+* もっと閲覧者にも寄り添った機能を追加できるようにしたい
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+# 制作期間
+制作しながら機能を実装したり、画像を編集したりしたため、おおよその時間で記載させていただいております
+サイトロゴ：合計約2時間
+コード入力：合計約3日10時間
+Worksページの作品情報入力：約4時間
+サイトアップロード：約4日(調べながら行いました)
+サイトアップロード後エラー修正：約5日(調べながら行いました)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-### Premium Partners
+# 使用技術
+* Laravel10
+* PHP
+* CSS(Tailwind.css使用)
+* JavaScript
+* Json(Worksページの作品情報に使用)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
 
-## Contributing
+# 使用ソフト
+* Illustrator
+* Photoshop
+* Visual Studio Code
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# 実装機能一覧
+* スマホ表示のみハンバーガーメニュー
+* 開いているページに色がつく(現在開いているページを分かりやすく)
+* Worksページの作品の絞り込み機能(解除ボタン付き)
+* Contactページの実装(送受信確認済)
