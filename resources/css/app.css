@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ハンバーガーのベース */
+.hamburger {
+    position: relative;
+    width: 28px;   /* ← 少し広めにする */
+    height: 22px;  /* ← 縦も広めにする */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 各線 */
+.hamburger span {
+    display: block;
+    height: 3px;
+    width: 30px;
+    background: #000;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    position: absolute;
+    transform-origin: center;
+    /* 回転の基準を中央に */
+}
+
+/* 三本線の位置 */
+.hamburger span:nth-child(1) {
+    top: 0;
+}
+
+.hamburger span:nth-child(2) {
+    top: 11px;
+}
+
+.hamburger span:nth-child(3) {
+    top: 22px;
+}
+
+/* 変形時 */
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 11px;
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 11px;
+}
+
+/* モバイルメニュー */
+#mobile-menu {
+    position: fixed;
+    top: 4rem;
+    /* ヘッダー下に表示 */
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* 半透明 */
+    backdrop-filter: blur(10px);
+    /* ぼかし */
+    z-index: 40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    transform: translateY(-100%);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+#mobile-menu.active {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+}
