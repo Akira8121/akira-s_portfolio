@@ -6,7 +6,7 @@
 レスポンシブ対応していますので、スマホやタブレットからもご確認可能です。  
   
 サイトURLはこちら  
-[[https://akira8121.github.io/trajectory/](https://xs484219.xsrv.jp/)] 
+[[https://akira8121.github.io/akira-s_project/](https://xs484219.xsrv.jp/)] 
 
 
 # デザイン
