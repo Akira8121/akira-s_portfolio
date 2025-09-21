@@ -2,6 +2,8 @@
 
 三角晶のポートフォリオサイトです。  
   
+![logo](https://github.com/Akira8121/akira-s_portfolio/blob/main/public/images/logo.svg)  
+  
 今まで制作したデザインやWEBサイトを掲載しています。  
 レスポンシブ対応していますので、スマホやタブレットからもご確認可能です。  
   
